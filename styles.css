@@ -34,10 +34,14 @@ body, html {
     color: #333;
     display: flex;
 }
-.Tabs{
-    margin-left: 200px;
-    margin-right: 200px;
+
+@media only screen and (max-width: 768px) {
+    .Tabs {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
+
 .section-title {
     font-size: 20px;
     font-weight: 700;
